@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: white;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-section input{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.input-section button{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.expenses-list{
+    margin: 28px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #f0f0f0;
+    color: black;
+}
+
+tfoot,td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(198, 69, 69);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
